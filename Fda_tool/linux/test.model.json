@@ -1,0 +1,10 @@
+{
+    "S": {
+        "project": "TEST",
+        "variable_name": "S",
+        "dataType": "boolean",
+        "idType": "Output",
+        "description": "",
+        "completed": true
+    }
+}

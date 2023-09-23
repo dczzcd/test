@@ -1,0 +1,23 @@
+(TEST)
+
+// 变量的声明
+var S : {
+    project: "TEST",
+    variable_name: "S",
+    dataType: "boolean",
+    idType: "Output",
+    description: "",
+    completed: true
+    }
+
+
+// 需求(规约)的声明
+req R1 : {
+    parent: "",
+    rationale: "",
+    comments: ""
+}
+
+
+// 需求(归约)的定义
+requirement R1: the system shall always satisfy S   

@@ -1,0 +1,47 @@
+[
+    {
+        "reqid": "R1",
+        "parent_reqid": "",
+        "project": "TEST",
+        "rationale": "",
+        "comments": "",
+        "fulltext": "the system shall always satisfy S",
+        "semantics": {
+            "type": "nasa",
+            "scope": {
+                "type": "null"
+            },
+            "condition": "null",
+            "timing": "always",
+            "response": "satisfaction",
+            "variables": [
+                "S"
+            ],
+            "component_name": "system",
+            "componentTextRange": [
+                16,
+                25
+            ],
+            "timingTextRange": [
+                33,
+                38
+            ],
+            "post_condition": "(S)",
+            "responseTextRange": [
+                40,
+                48
+            ],
+            "ft": "(LAST V (S))",
+            "pt": "(H (S))",
+            "ftExpanded": "(LAST V (S))",
+            "ptExpanded": "(H (S))",
+            "component": "system",
+            "CoCoSpecCode": "(H((S)))",
+            "diagramVariables": "Response = (S).",
+            "description": "ENFORCED: in the interval defined by the entire execution.\nTRIGGER: first point in the interval.\nREQUIRES: for every trigger, RES must hold at all time points between (and including) the trigger and the end of the interval.",
+            "diagram": "_media/user-interface/examples/svgDiagrams/null_null_always_satisfaction.svg"
+        },
+        "template": {},
+        "status": ""
+    }
+]
